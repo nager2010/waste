@@ -1,0 +1,49 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+/* تخصيص الخط للغة العربية */
+@font-face {
+    font-family: 'Tajawal';
+    src: url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+}
+
+:root {
+    --font-family: 'Tajawal', sans-serif;
+}
+
+/* تحسينات RTL */
+[dir="rtl"] {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* تحسين أحجام الخطوط */
+.fi-sidebar-header {
+    font-size: 1.25rem;
+}
+
+.fi-sidebar-item-label {
+    font-size: 1rem;
+}
+
+/* تحسين المسافات للغة العربية */
+.fi-form-field-wrp {
+    margin-bottom: 1.5rem;
+}
+
+.fi-input {
+    padding-right: 1rem;
+}
+
+/* تحسين شكل الأزرار */
+.fi-btn {
+    font-weight: 500;
+}
+
+/* تحسين الجداول */
+.fi-ta-header-cell {
+    font-weight: 500;
+}
+
+/* تحسين التنبيهات */
+.fi-notification {
+    font-family: 'Tajawal', sans-serif;
+}
